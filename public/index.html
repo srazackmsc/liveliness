@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POC for Liveliness</title>
+    <link href="css/index.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container" style="margin: 50px;">
+        <video id="videoRef" autoPlay playsInline muted style="border: 1px solid lightcoral;"></video>
+    </div>
+    <div class="m-auto text-center">
+        <h3 class="text-center text-purple" id="message">Please wait.. loading ....</h3>
+    </div>
+    <div class="m-auto text-center">
+        <button type="button" name="startCamera" id="startCamera">Start Camera</button>
+        <button type="button" name="stopCamera" id="stopCamera">Stop Camera</button>
+    </div>
+    <div id="liveliness_images"></div>
+    <!-- <script type="module" src="js/tasks-vision.js"></script>
+    <script type="module" src="js/faceLandmarkSDK.js"></script> -->
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+#videoRef{
+    width:500px;height:400px;
+}
+.container{
+    text-align: center;
+}
+.m-auto{margin:auto auto;}
+.text-center{text-align: center;}
+.text-purple{color:purple;}
+#liveliness_images img{margin: 10px;}
